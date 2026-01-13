@@ -14,9 +14,9 @@ namespace isRock.Template
 
     public class ChatGPT
     {
-        const string AzureOpenAIEndpoint = "https://testaoai20250113.openai.azure.com";  //👉replace it with your Azure OpenAI Endpoint
+        const string AzureOpenAIEndpoint = "https://XXXXXXXXXX.openai.azure.com";  //👉replace it with your Azure OpenAI Endpoint
         const string AzureOpenAIModelName = "/gpt-4o"; //👉repleace it with your Azure OpenAI Model Deploy Name
-        const string AzureOpenAIToken = "1B5nF8INNeFg4EVbtLHaMSOabDz3CWzHOuvxv0r9jGoqaqJRHgPvJQQJ99CAACYeBjFXJ3w3AAABACOGr8YP"; //👉repleace it with your Azure OpenAI API Key
+        const string AzureOpenAIToken = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx"; //👉repleace it with your Azure OpenAI API Key
         const string AzureOpenAIVersion = "2025-01-01-preview";  //👉replace  it with your Azure OpenAI API Version
 
         public static string CallAzureOpenAIChatAPI(
